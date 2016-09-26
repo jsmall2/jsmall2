@@ -1,0 +1,23 @@
+body{
+  background-color: red;
+}
+.greenItalics{
+  color: green;
+  font-style: italic;
+
+}
+li{
+  font-size: 30px;
+  display: inline;
+}
+img{
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+p{
+  text-transform: uppercase;
+  font-family: "arial", Times, serif;
+}
