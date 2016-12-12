@@ -1,0 +1,41 @@
+html{
+background-image: url(backIMG.gif);
+background-repeat: repeat;
+background-size: 160px 190px;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color: white;
+
+}
+p{
+  background-color: #BC3039;
+
+}
+h1{
+text-align: center;
+border: 5px dotted white;
+position: relative;
+background-color: #BC3039;
+}
+div#BOXcontainer{
+  /*border: 5px solid blue;*/
+  overflow: auto;
+  background:#023374;
+margin-left: 65px;
+margin-right: 65px;
+}
+div#BOXleft{
+  float: left;
+  height: 250px;
+border: 5px dotted white;
+background-color: #BC3039;
+position: fixed;
+margin-left: 20px;
+
+}
+div#BOXright{
+  height: 700px;
+
+margin-left: 170px;
+margin-right: 80px;
+overflow: scroll;
+}
